@@ -68,7 +68,7 @@
 					<a href="#" class="navbar-brand">
 						<small>
 							<i class="fa fa-leaf"></i>
-							Inteligencia Artificial
+							Inteligencia Artificial 1
 						</small>
 					</a>
 
