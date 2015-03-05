@@ -1,5 +1,6 @@
 package ia1.practica1.webapp;
 
+
 public class Pregunta {
 	private String Pregunta;
 	private String Respuesta;
