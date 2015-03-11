@@ -2,9 +2,9 @@ from django.db import models
 
 class registro(models.Model):
 	usuario = models.CharField(max_length=50)
-	#nick = models.CharField(max_length=20)
-	#password = models.CharField(max_length=15)
-	#edad = models.IntegerField()
+	nick = models.CharField(max_length=20)
+	password = models.CharField(max_length=15)
+	edad = models.IntegerField()
 	def prueba_texto_sin_numeros(self):
 		largo = len(self.usuario)
 		numeros = 0
