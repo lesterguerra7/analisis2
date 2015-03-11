@@ -1,0 +1,12 @@
+from registro.models import registro
+
+
+def obtener_usuario(nuevo): #verifica si el nuevo registro ya existe por nickname
+	try:
+		us = registro.objects.get(nick=nuevo)
+		if us==None:
+			return True
+		else:
+			return False
+	except ValueError:
+		return False
