@@ -19,5 +19,6 @@ public class Pregunta {
 	public void setRespuesta(String respuesta) {
 		Respuesta = respuesta;
 	}
+	//Comentario
 	
 }
